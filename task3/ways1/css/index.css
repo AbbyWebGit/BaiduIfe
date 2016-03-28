@@ -1,0 +1,91 @@
+body {
+    padding: 20px;
+}
+
+.wrap {
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #eee;
+    min-width: 770px;
+}
+
+.team {
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #999;
+    background-color: #fff;
+    float: left;
+}
+
+.teamLogo {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-image: url("../img/logoBlue.jpg");
+    background-size: 80px 80px;
+    background-repeat: no-repeat;
+    border: 1px solid #999;
+}
+
+.teamName {
+    display: inline-block;
+    margin-left: 20px;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.teamMembers {
+    padding: 20px;
+    border: 1px solid #999;
+    min-width: 300px;
+    margin: 0 170px 0 250px;
+}
+
+.detailMemb {
+    padding: 20px;
+    border: 1px solid #999;
+    margin-top: 20px;
+}
+
+.detailMemb h4 {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.teamList {
+    float: right;
+    width: 120px;
+    padding: 20px;
+    border: 1px solid #999;
+}
+
+.teamList {
+    float: right;
+    width: 120px;
+    padding: 20px;
+    border: 1px solid #999;
+    
+}
+
+.teamList li {   
+    width: 80px;
+    margin:0 auto;
+    margin-bottom: 20px;
+    border: 1px solid #999;
+
+
+}
+
+.teamList li img {
+    display: inline-block;
+    width: 80px;
+     margin:0px;
+    padding: 0px;
+    display: block;
+   
+}
+
+.teamList li:last-child {
+    margin-bottom: 0px;
+}
