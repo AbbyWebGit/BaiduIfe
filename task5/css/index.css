@@ -1,0 +1,249 @@
+body {
+    background-color: #DEDEDE;
+}
+
+.header {
+    height: 70px;
+    background-color: #333333;
+    overflow: hidden;
+}
+
+.header .logo {
+    background-image: url(../img/logo.png);
+    background-repeat: no-repeat;
+    height: 40px;
+    width: 120px;
+    margin-top: 15px;
+    float: left;
+    margin-left: 35px;
+}
+
+.header ul {
+    float: right;
+    line-height: 70px;
+    margin-right: 20px;
+}
+
+.header ul li {
+    float: left;
+}
+
+.header ul li a {
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.header ul li a:hover {
+    color: #2519D6;
+}
+
+.header .headerIcon {
+    display: inline-block;
+    width: 5px;
+    height: 5px;
+    background-color: #020202;
+    border-radius: 50%;
+    margin: 0px 5px;
+}
+.wrap{
+    min-width: 770px;
+}
+.content {
+    margin-right: 450px;
+    margin-left: 20px;
+    min-width: 310px;
+}
+
+.article {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 40px 20px;
+    -moz-box-shadow: 5px 5px 5px #848484;
+    box-shadow: 5px 5px 5px #848484;
+}
+
+.mainTitle {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+}
+
+.subTitle {
+    font-size: 16px;
+    font-weight: bolder;
+    color: #5B5851;
+    margin-top: 20px;
+}
+
+.articleInfo {
+    font-size: 12px;
+    font-weight: bolder;
+    color: #57654E;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.articleInfo .author {
+    margin-right: 5px;
+}
+
+.article p {
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.article img {
+    margin: 20px 0px;
+    width: 270px;
+}
+.article ol li{
+    margin-bottom: 5px;
+}
+.projectList li {
+    text-indent: 2em;
+    font-size: 14px;
+    line-height: 28px;
+}
+
+.picList li {
+    width: 130px;
+    height: 128px;
+    border: 1px solid #CECECE;
+    margin-top: 17px;
+    margin-left: 40px;
+    display: inline-block;
+}
+
+.picList .picTitle {
+    width: 120px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.picList img.picture {
+    display: block;
+    width: 105px;
+    height: 84px;
+    margin: 12px auto;
+}
+
+.totalTable {
+    width: 100%;
+    font-size: 12px;
+}
+
+.totalTable th {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3px;
+    color: #fff;
+    background-color: #333333;
+}
+
+.totalTable td {
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3px;
+}
+
+.totalTable .total {
+    background-color: #CCCCCC;
+    font-weight: bolder;
+}
+
+.sidebar {
+    float: right;
+    width: 360px;
+    padding: 20px;
+    background-color: #fff;
+    margin-right: 20px;
+    -moz-box-shadow: 5px 5px 5px #848484;
+    box-shadow: 5px 5px 5px #848484;
+}
+
+.sideTitle {
+    height: 38px;
+    border-left: 5px solid #CCCCCC;
+    line-height: 38px;
+    font-size: 16px;
+    padding-left: 10px;
+    font-weight: bolder;
+}
+
+.sideForm {
+    width: 330px;
+    margin-left: 20px;
+    font-size: 12px;
+}
+
+.information {
+    margin-top: 10px;
+}
+
+.information input[type=text],
+input[type=password] {
+    border: none;
+    width: 135px;
+    height: 20px;
+}
+
+.inforBox {
+    display: inline-block;
+    border: 1px solid #CBCBCB;
+    width: 140px;
+    height: 22px;
+    padding-left: 2px;
+    margin-left: 15px;
+}
+
+.information .inforName {
+    display: inline-block;
+    width: 85px;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.errMessage {
+    margin-left: 102px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #958588;
+}
+
+.inforRadio {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: inline-block;
+}
+
+.submit {
+    width: 100%;
+    background-color: #3355D0;
+    color: #fff;
+    border-radius: 8px;
+    border: 1px solid #3355D0;
+    height: 40px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+
+/*文字距顶对齐*/
+
+.textTop {
+    vertical-align: top;
+}
+
+.bottom {
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 70px;
+}

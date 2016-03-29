@@ -1,0 +1,344 @@
+@charset "utf-8";
+.wrap {
+    width: 980px;
+    height: 1386;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 0 44px;
+}
+
+.header {
+    height: 61px;
+    border-bottom: 2px solid #938e8c;
+    font-family: "黑体";
+    font-size: 12px;
+    position: relative;
+}
+
+.logo {
+    width: 110px;
+    height: 61px;
+    background-color: #D55D5C;
+    text-align: center;
+    vertical-align: bottom;
+    position: relative;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.logo a {
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 5px;
+    margin: 0 auto;
+}
+
+.data {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #d45d5c;
+}
+
+.mainBody {
+    margin-top: 35px;
+}
+
+@mixin mask {
+    width: 191px;
+    height: 301px;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+.topPic {
+    width: 641px;
+    height: 301px;
+    position: relative;
+    display: inline-block;
+    img {
+        float: left;
+    }
+    .maskLeft {
+        @include mask;
+        background-color: #A0C5AC;
+        position: absolute;
+        left: 0;
+    }
+    .maskRight {
+        @include mask;
+        background-color: #E5BABF;
+        position: absolute;
+        right: 0
+    }
+}
+
+b.firstWord {
+    font-weight: normal;
+    font-size: 28px;
+}
+
+.topTitle {
+    width: 203px;
+    margin-left: 50px;
+    border-top: 2px solid #cc8091;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.mainTitle {
+    font-size: 24px;
+    color: #000000;
+    a {
+        text-decoration: underline;
+        color: #000;
+        &:hover {
+            color: #cc8091;
+        }
+    }
+    span {
+        display: block;
+        line-height: 40px;
+    }
+}
+
+.subTitle {
+    font-size: 12px;
+    font-family: "楷体";
+    line-height: 10px;
+    color: #676767;
+}
+
+.importantNum {
+    font-size: 116px;
+    color: #75b86b;
+    font-weight: bold;
+}
+
+.subNum {
+    display: inline-block;
+    font-size: 55px;
+    color: #cc8091;
+    position: relative;
+    .subIntro {
+        font-size: 21px;
+        position: absolute;
+        left: 85px;
+        bottom: 12px;
+        line-height: 12px;
+    }
+    .smallIntro {
+        font-size: 12px;
+        color: #BCBBBA;
+    }
+}
+
+.titleArticle {
+    display: inline-block;
+    font-size: 16px;
+    color: #418c59;
+    font-weight: bold;
+    border-bottom: 2px solid #418c59;
+}
+
+.conArticle {
+    font-size: 12px;
+    color: #767777;
+    line-height: 16px;
+    font-family: "宋体";
+}
+
+.topArticle {
+    .firArticle {
+        width: 230px;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .secArticle {
+        margin-left: 28px;
+        width: 205px;
+        display: inline-block;
+        vertical-align: top;
+        .titleArticle {
+            color: #d2994f;
+            border-bottom: 2px solid #d2994f;
+        }
+    }
+    .thirArticle {
+        margin-left: 28px;
+        width: 130px;
+        display: inline-block;
+        vertical-align: top;
+        .titleArticle {
+            color: #cc7680;
+            border-bottom: 2px solid #cc7680;
+        }
+    }
+}
+
+.dataPre {
+    margin-top: 10px;
+    font-size: 12px;
+    line-height: 16px;
+    opacity: 0.7;
+    color: #231815;
+    display: block;
+    span {
+        display: inline-block;
+    }
+    .percent {
+        color: #cd4a48;
+    }
+}
+
+.botttomContent {
+    margin-top: 110px;
+    .botLeftCont {
+        width: 417px;
+        display: inline-block;
+    }
+    .botRightCont {
+        width: 460px;
+        display: inline-block;
+        vertical-align: top;
+        margin-left: 18px;
+    }
+}
+
+.leftTitle {
+    padding-bottom: 15px;
+    border-bottom: 2px solid #10456B;
+    font-family: "黑体";
+    font-weight: bold;
+    .leftMainTitle {
+        font-size: 42px;
+        color: #11456b;
+        letter-spacing: -4px;
+        .leftFirWord {
+            font-size: 72px;
+            color: #f5e327;
+            margin: 0 20px 0 0;
+        }
+    }
+    .leftSubTitle {
+        font-size: 33px;
+        color: #11456b;
+    }
+}
+
+.leftArticle {
+    margin-top: 25px;
+    position: relative;
+    .firstText {
+        font-size: 70px;
+        color: #f5e327;
+        margin-right: 5px;
+        margin-bottom: 5px;
+        float: left;
+        line-height: 70px;
+    }
+    p {
+        text-indent: 2em;
+        font-size: 12px;
+        color: #767777;
+        line-height: 16px;
+        font-family: "宋体";
+    }
+    .firPara {
+        text-indent: 0em;
+    }
+    .picArticle {
+        float: right;
+        margin: 15px;
+    }
+}
+
+.botRightCont {
+    position: relative;
+    .rightPic {
+        width: 458px;
+        height: 260px;
+        position: relative;
+        .botMask {
+            height: 61px;
+            width: 458px;
+            background-color: #9B9999;
+            position: absolute;
+            bottom: 1px;
+            left: 0px;
+            opacity: 0.5;
+        }
+        .botTitle {
+            border-left: 3px solid #72b16a;
+            line-height: 44px;
+            height: 44px;
+            color: #fff;
+            margin-left: 35px;
+            margin-top: 8.5px;
+            padding-left: 10px;
+            font-size: 26px;
+            z-index: 2;
+            position: absolute;
+            bottom: 7px;
+            left: 0px;
+            i {
+                font-size: 12px;
+                color: #72b16a;
+                letter-spacing: 1.68px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+.rightArticle {
+    background-color:#EEEED6;
+    margin-top: 30px;
+    overflow: hidden;
+    .artiList{
+        margin:30px;
+        li{
+            height: 16px;
+            line-height: 16px;
+            margin-bottom:25px;
+            a{
+                color: #5a5b5b;
+                font-family: "宋体";
+                font-size: 16px;
+                text-align: left;
+                display: inline-block;
+                width: 360px;
+                i{
+                    font-size: 12px;
+                    text-align: right;
+                    float: right;
+
+                }
+
+            }
+        }
+        li:last-child{
+            margin-bottom:0px;
+
+        }
+    }
+    .icon {
+        display: inline-block;
+        font-size: 0;
+        line-height: 0;
+        border: 8px solid;
+        border-color: #EEEED6 #EEEED6 #10446B #EEEED6;
+        float: left;
+        margin-right:5px;
+    }
+    .artiContTitle{
+        width: 260px;
+        height: 160px;
+        background-color:#D55D5C;
+        color: #fff;
+        padding:37px 15px;
+
+    }
+}
