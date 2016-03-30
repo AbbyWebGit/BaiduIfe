@@ -121,16 +121,17 @@ b.firstWord {
   font-size: 12px;
   color: #767777;
   line-height: 16px;
-  font-family: "宋体"; }
+  font-family: "宋体";
+  margin-top: 5px; }
 
 .topArticle {
-  margin-top: 40px; }
+  margin-top: 26px; }
   .topArticle .firArticle {
     width: 230px;
     display: inline-block;
     vertical-align: top; }
   .topArticle .secArticle {
-    margin-left: 28px;
+    margin-left: 23px;
     width: 205px;
     display: inline-block;
     vertical-align: top; }
@@ -138,7 +139,7 @@ b.firstWord {
       color: #d2994f;
       border-bottom: 2px solid #d2994f; }
   .topArticle .thirArticle {
-    margin-left: 28px;
+    margin-left: 25px;
     width: 130px;
     display: inline-block;
     vertical-align: top; }
@@ -159,7 +160,7 @@ b.firstWord {
     color: #cd4a48; }
 
 .botttomContent {
-  margin-top: 60px; }
+  margin-top: 73px; }
   .botttomContent .botLeftCont {
     width: 417px;
     display: inline-block; }
@@ -177,14 +178,16 @@ b.firstWord {
   .leftTitle .leftMainTitle {
     font-size: 42px;
     color: #11456b;
-    letter-spacing: -4px; }
+    letter-spacing: -4px;
+    line-height: 44px; }
     .leftTitle .leftMainTitle .leftFirWord {
       font-size: 72px;
       color: #f5e327;
       margin: 0 20px 0 0; }
   .leftTitle .leftSubTitle {
-    font-size: 33px;
-    color: #11456b; }
+    font-size: 38px;
+    color: #11456b;
+    line-height: 33px; }
 
 .leftArticle {
   margin-top: 25px;
@@ -206,7 +209,7 @@ b.firstWord {
     text-indent: 0em; }
   .leftArticle .picArticle {
     float: right;
-    margin: 15px; }
+    margin: 0px 10px 0px 6px; }
 
 .botRightCont {
   position: relative; }
@@ -277,7 +280,7 @@ b.firstWord {
     height: 98px;
     background-color: #D55D5C;
     color: #fff;
-    padding: 36px 0px;
+    padding: 32px 0px;
     display: inline-block; }
     .rightArticle .artiContTitle .leftWord {
       display: inline-block;
@@ -287,11 +290,12 @@ b.firstWord {
       line-height: 86px;
       font-size: 110px;
       color: #fff;
-      padding: 5px;
+      padding: 8px;
       border-right: 2px solid #fff; }
     .rightArticle .artiContTitle .rightWord {
       display: inline-block;
-      width: 160px; }
+      width: 160px;
+      margin-left: 5px; }
       .rightArticle .artiContTitle .rightWord i {
         display: block;
         font-size: 21px;
@@ -299,8 +303,9 @@ b.firstWord {
         font-family: "黑体"; }
       .rightArticle .artiContTitle .rightWord .subWord {
         font-size: 12px;
-        line-height: 6px;
-        font-family: "黑体"; }
+        line-height: 12px;
+        font-family: "黑体";
+        display: inline-block; }
   .rightArticle .artiContWord {
     display: inline-block;
     vertical-align: top;
@@ -315,9 +320,11 @@ b.firstWord {
       font-size: 72px;
       color: #d45d5c;
       float: left;
-      height: 20px; }
+      height: 20px;
+      margin-left: -38px; }
     .rightArticle .artiContWord span.right {
-      float: right; }
+      float: right;
+      margin-left: 0px; }
 
 .footer {
   border-top: 1px solid #938e8c;
