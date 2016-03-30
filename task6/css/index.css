@@ -1,12 +1,13 @@
 @charset "UTF-8";
 .wrap {
-  width: 980px;
+  width: 892px;
   height: 1386;
   margin: 0 auto;
   background-color: #fff;
-  padding: 0 44px; }
+  padding: 0 43px; }
 
 .header {
+  width: 892px;
   height: 61px;
   border-bottom: 2px solid #938e8c;
   font-family: "黑体";
@@ -19,23 +20,17 @@
   background-color: #D55D5C;
   text-align: center;
   vertical-align: bottom;
-  position: relative;
-  position: absolute;
-  bottom: 0;
-  left: 0; }
+  float: left; }
 
 .logo a {
+  display: inline-block;
   color: #fff;
-  position: absolute;
-  bottom: 0;
-  left: 5px;
-  margin: 0 auto; }
+  margin-top: 45px; }
 
 .data {
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  color: #d45d5c; }
+  float: right;
+  color: #d45d5c;
+  margin-top: 45px; }
 
 .mainBody {
   margin-top: 35px; }
@@ -70,7 +65,7 @@ b.firstWord {
 
 .topTitle {
   width: 203px;
-  margin-left: 50px;
+  margin-left: 43px;
   border-top: 2px solid #cc8091;
   display: inline-block;
   vertical-align: top; }
@@ -84,6 +79,7 @@ b.firstWord {
     .mainTitle a:hover {
       color: #cc8091; }
   .mainTitle span {
+    font-size: 24px;
     display: block;
     line-height: 40px; }
 
@@ -96,7 +92,8 @@ b.firstWord {
 .importantNum {
   font-size: 116px;
   color: #75b86b;
-  font-weight: bold; }
+  font-weight: bold;
+  height: 133px; }
 
 .subNum {
   display: inline-block;
@@ -126,26 +123,28 @@ b.firstWord {
   line-height: 16px;
   font-family: "宋体"; }
 
-.topArticle .firArticle {
-  width: 230px;
-  display: inline-block;
-  vertical-align: top; }
-.topArticle .secArticle {
-  margin-left: 28px;
-  width: 205px;
-  display: inline-block;
-  vertical-align: top; }
-  .topArticle .secArticle .titleArticle {
-    color: #d2994f;
-    border-bottom: 2px solid #d2994f; }
-.topArticle .thirArticle {
-  margin-left: 28px;
-  width: 130px;
-  display: inline-block;
-  vertical-align: top; }
-  .topArticle .thirArticle .titleArticle {
-    color: #cc7680;
-    border-bottom: 2px solid #cc7680; }
+.topArticle {
+  margin-top: 40px; }
+  .topArticle .firArticle {
+    width: 230px;
+    display: inline-block;
+    vertical-align: top; }
+  .topArticle .secArticle {
+    margin-left: 28px;
+    width: 205px;
+    display: inline-block;
+    vertical-align: top; }
+    .topArticle .secArticle .titleArticle {
+      color: #d2994f;
+      border-bottom: 2px solid #d2994f; }
+  .topArticle .thirArticle {
+    margin-left: 28px;
+    width: 130px;
+    display: inline-block;
+    vertical-align: top; }
+    .topArticle .thirArticle .titleArticle {
+      color: #cc7680;
+      border-bottom: 2px solid #cc7680; }
 
 .dataPre {
   margin-top: 10px;
@@ -160,7 +159,7 @@ b.firstWord {
     color: #cd4a48; }
 
 .botttomContent {
-  margin-top: 110px; }
+  margin-top: 60px; }
   .botttomContent .botLeftCont {
     width: 417px;
     display: inline-block; }
@@ -168,7 +167,7 @@ b.firstWord {
     width: 460px;
     display: inline-block;
     vertical-align: top;
-    margin-left: 18px; }
+    margin-left: 10px; }
 
 .leftTitle {
   padding-bottom: 15px;
@@ -275,9 +274,60 @@ b.firstWord {
     margin-right: 5px; }
   .rightArticle .artiContTitle {
     width: 260px;
-    height: 160px;
+    height: 98px;
     background-color: #D55D5C;
     color: #fff;
-    padding: 37px 15px; }
+    padding: 36px 0px;
+    display: inline-block; }
+    .rightArticle .artiContTitle .leftWord {
+      display: inline-block;
+      vertical-align: top;
+      height: 86px;
+      width: 60px;
+      line-height: 86px;
+      font-size: 110px;
+      color: #fff;
+      padding: 5px;
+      border-right: 2px solid #fff; }
+    .rightArticle .artiContTitle .rightWord {
+      display: inline-block;
+      width: 160px; }
+      .rightArticle .artiContTitle .rightWord i {
+        display: block;
+        font-size: 21px;
+        line-height: 24px;
+        font-family: "黑体"; }
+      .rightArticle .artiContTitle .rightWord .subWord {
+        font-size: 12px;
+        line-height: 6px;
+        font-family: "黑体"; }
+  .rightArticle .artiContWord {
+    display: inline-block;
+    vertical-align: top;
+    width: 165px;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #5a5d5d;
+    font-family: "黑体";
+    text-align: left;
+    position: relative; }
+    .rightArticle .artiContWord span {
+      font-size: 72px;
+      color: #d45d5c;
+      float: left;
+      height: 20px; }
+    .rightArticle .artiContWord span.right {
+      float: right; }
+
+.footer {
+  border-top: 1px solid #938e8c;
+  margin: 40px 0px;
+  width: 892px; }
+  .footer p {
+    float: right; }
+    .footer p a {
+      font-size: 12px;
+      color: #d45d5c;
+      font-family: "黑体"; }
 
 /*# sourceMappingURL=index.css.map */

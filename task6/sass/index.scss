@@ -1,13 +1,15 @@
 @charset "utf-8";
 .wrap {
-    width: 980px;
+    width: 892px;
     height: 1386;
     margin: 0 auto;
     background-color: #fff;
-    padding: 0 44px;
+    padding: 0 43px;
+    // border:1px solid #000;
 }
 
 .header {
+    width: 892px;
     height: 61px;
     border-bottom: 2px solid #938e8c;
     font-family: "黑体";
@@ -21,25 +23,19 @@
     background-color: #D55D5C;
     text-align: center;
     vertical-align: bottom;
-    position: relative;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+    float: left;
 }
 
 .logo a {
+    display: inline-block;
     color: #fff;
-    position: absolute;
-    bottom: 0;
-    left: 5px;
-    margin: 0 auto;
+    margin-top: 45px;
 }
 
 .data {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    float: right;
     color: #d45d5c;
+    margin-top: 45px;
 }
 
 .mainBody {
@@ -82,7 +78,7 @@ b.firstWord {
 
 .topTitle {
     width: 203px;
-    margin-left: 50px;
+    margin-left: 43px;
     border-top: 2px solid #cc8091;
     display: inline-block;
     vertical-align: top;
@@ -99,6 +95,7 @@ b.firstWord {
         }
     }
     span {
+        font-size: 24px;
         display: block;
         line-height: 40px;
     }
@@ -115,6 +112,7 @@ b.firstWord {
     font-size: 116px;
     color: #75b86b;
     font-weight: bold;
+    height: 133px;
 }
 
 .subNum {
@@ -151,6 +149,7 @@ b.firstWord {
 }
 
 .topArticle {
+        margin-top: 40px;
     .firArticle {
         width: 230px;
         display: inline-block;
@@ -194,7 +193,7 @@ b.firstWord {
 }
 
 .botttomContent {
-    margin-top: 110px;
+    margin-top: 60px;
     .botLeftCont {
         width: 417px;
         display: inline-block;
@@ -203,7 +202,7 @@ b.firstWord {
         width: 460px;
         display: inline-block;
         vertical-align: top;
-        margin-left: 18px;
+        margin-left: 10px;
     }
 }
 
@@ -294,34 +293,31 @@ b.firstWord {
 }
 
 .rightArticle {
-    background-color:#EEEED6;
+    background-color: #EEEED6;
     margin-top: 30px;
     overflow: hidden;
-    .artiList{
-        margin:30px;
-        li{
+    .artiList {
+        margin: 30px;
+        li {
             height: 16px;
             line-height: 16px;
-            margin-bottom:25px;
-            a{
+            margin-bottom: 25px;
+            a {
                 color: #5a5b5b;
                 font-family: "宋体";
                 font-size: 16px;
                 text-align: left;
                 display: inline-block;
                 width: 360px;
-                i{
+                i {
                     font-size: 12px;
                     text-align: right;
                     float: right;
-
                 }
-
             }
         }
-        li:last-child{
-            margin-bottom:0px;
-
+        li:last-child {
+            margin-bottom: 0px;
         }
     }
     .icon {
@@ -331,14 +327,75 @@ b.firstWord {
         border: 8px solid;
         border-color: #EEEED6 #EEEED6 #10446B #EEEED6;
         float: left;
-        margin-right:5px;
+        margin-right: 5px;
     }
-    .artiContTitle{
+    .artiContTitle {
         width: 260px;
-        height: 160px;
-        background-color:#D55D5C;
+        height: 98px;
+        background-color: #D55D5C;
         color: #fff;
-        padding:37px 15px;
+        padding: 36px 0px;
+        display: inline-block;
+        .leftWord {
+            display: inline-block;
+            vertical-align: top;
+            height: 86px;
+            width: 60px;
+            line-height: 86px;
+            font-size: 110px;
+            color: #fff;
+            padding: 5px;
+            border-right: 2px solid #fff;
+        }
+        .rightWord {
+            display: inline-block;
+            width: 160px;
+            i {
+                display: block;
+                font-size: 21px;
+                line-height: 24px;
+                font-family: "黑体";
+            }
+            .subWord {
+                font-size: 12px;
+                line-height: 6px;
+                font-family: "黑体";
+            }
+        }
+    }
+    .artiContWord {
+        display: inline-block;
+        vertical-align: top;
+        width: 165px;
+        margin-top: 5px;
+        font-size: 14px;
+        color: #5a5d5d;
+        font-family: "黑体";
+        text-align: left;
+        position: relative;
+        i {}
+        span {
+            font-size: 72px;
+            color: #d45d5c;
+            float: left;
+            height: 20px;
+        }
+        span.right {
+            float: right;
+        }
+    }
+}
 
+.footer {
+    border-top: 1px solid #938e8c;
+    margin: 40px 0px;
+    width: 892px;
+    p {
+        float: right;
+        a {
+            font-size: 12px;
+            color: #d45d5c;
+            font-family: "黑体";
+        }
     }
 }
