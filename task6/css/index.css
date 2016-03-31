@@ -337,4 +337,15 @@ b.firstWord {
       color: #d45d5c;
       font-family: "黑体"; }
 
+.test::before {
+    content: open-quote;
+    font-size: 72px;
+    color: #d45d5c;
+    float: left;
+    height: 20px;
+    overflow: hidden;
+    height: 30px;
+    line-height: 55px;
+  }
+
 /*# sourceMappingURL=index.css.map */

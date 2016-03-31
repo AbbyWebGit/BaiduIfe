@@ -407,3 +407,14 @@ b.firstWord {
         }
     }
 }
+
+
+.test::before {
+    content: open-quote;
+    position: absolute;
+    z-index: -1;
+    color: #DDD;
+    font-size: 120px;
+    font-family: serif;
+    font-weight: bolder;
+}

@@ -1,0 +1,120 @@
+.wrap {
+  min-width: 1280px;
+  background-color: #fff;
+  overflow: hidden; }
+
+.bg-pic {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  width: 100%;
+  background-size: cover; }
+
+.curSelect {
+  border-bottom: 5px solid #E74F4D; }
+
+.site-head {
+  height: 57px;
+  overflow: hidden;
+  font-size: 14px;
+  color: #787B83; }
+  .site-head .head-logo {
+    margin-top: 13px;
+    height: 31px;
+    margin-left: 59px;
+    float: left; }
+  .site-head .head-name {
+    font-size: 21px;
+    line-height: 31px;
+    vertical-align: top;
+    color: #393A3A; }
+  .site-head .head-list {
+    display: inline-block;
+    vertical-align: top;
+    float: right; }
+    .site-head .head-list li {
+      display: inline-block;
+      height: 52px;
+      line-height: 56px;
+      padding: 0 20px;
+      margin-left: 6px; }
+      .site-head .head-list li a {
+        color: #787B83; }
+        .site-head .head-list li a:hover {
+          color: #E74F4D; }
+        .site-head .head-list li a.curWord {
+          color: #E74F4D; }
+  .site-head .head-login {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    line-height: 56px;
+    margin-right: 68px;
+    margin-left: 10px;
+    color: #E74F4D; }
+
+.site-screen .bg-pic {
+  height: 690px;
+  background-image: url(../img/header.png); }
+.site-screen .screen-word {
+  width: 460px;
+  height: 300px;
+  margin-top: 230px;
+  margin-left: 115px;
+  color: #fff; }
+  .site-screen .screen-word .main-title {
+    font-size: 60px; }
+  .site-screen .screen-word .sub-title {
+    font-size: 21px;
+    line-height: 28px; }
+.site-screen .screen-start {
+  margin-top: 64px;
+  width: 328px;
+  height: 62px;
+  background-color: #E74F4D;
+  border: 1px solid #E74F4D; }
+  .site-screen .screen-start a {
+    display: inline-block;
+    width: 316px;
+    line-height: 58px;
+    color: #fff;
+    font-size: 30px; }
+.site-screen .site-use {
+  height: 144px;
+  padding: 53px 0px;
+  color: #DA5550; }
+  .site-screen .site-use .iconfont {
+    font-size: 40px;
+    line-height: 40px; }
+  .site-screen .site-use li {
+    display: inline-block;
+    width: 24%;
+    text-align: center; }
+  .site-screen .site-use .word-list {
+    margin-top: 50px; }
+    .site-screen .site-use .word-list li {
+      color: #838383;
+      height: 52px;
+      border-right: 1px solid #767676; }
+      .site-screen .site-use .word-list li span {
+        display: inline-block;
+        width: 158px;
+        font-size: 14px;
+        line-height: 16px; }
+    .site-screen .site-use .word-list li:last-child {
+      border-right: 0px; }
+.site-screen .site-unknown {
+  height: 360px;
+  background-color: #EDEDEC;
+  color: #A1A1A1;
+  text-align: center;
+  font-size: 54px; }
+  .site-screen .site-unknown img {
+    margin-top: 88px;
+    margin-bottom: 20px; }
+
+.site-activity {
+  height: 340px;
+  background-image: url(../img/map.png); }
+
+/*# sourceMappingURL=index.css.map */
